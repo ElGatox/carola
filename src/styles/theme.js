@@ -1,5 +1,6 @@
 import { extendTheme } from "@chakra-ui/react";
-import Avenir from "./fonts"
+import Avenir from "./fonts";
+import components from "./components";
 
 export const theme = extendTheme({
   fonts: {
@@ -9,4 +10,5 @@ export const theme = extendTheme({
     "avenir-light": Avenir.light.style.fontFamily,
     "avenir-medium": Avenir.medium.style.fontFamily,
   },
+  components,
 });
