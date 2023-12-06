@@ -17,3 +17,5 @@ const Textarea = {
     variant: "primary",
   },
 };
+
+export default Textarea;
