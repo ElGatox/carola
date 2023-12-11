@@ -1,9 +1,9 @@
 const Text = {
   variants: {
-    form: {
+    primary: {
       fontSize: "16px",
       lineHeight: "20px",
-      fontFamily: "roobert-medium",
+      fontFamily: "default-light",
     },
   },
 };

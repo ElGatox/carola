@@ -1,4 +1,4 @@
-import Text from "./text";
+import Text from "../text";
 const Input = {
   variants: {
     primary: {
@@ -6,12 +6,12 @@ const Input = {
         ...Text.variants["form-input"],
         p: "14px",
         border: "1px",
-        borderColor: "neutral.200",
-        color: "primary.1000",
+        borderColor: "gray.100",
+        color: "blue.900",
         h: "48px",
-        _placeholder: { color: "neutral.500", opacity: "0.5" },
+        _placeholder: { color: "gray.500", opacity: "0.5" },
         _focus: {
-          borderColor: "primary.500",
+          borderColor: "blue.600",
         },
       },
     },

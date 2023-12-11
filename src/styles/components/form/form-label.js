@@ -1,10 +1,10 @@
-import Text from "./text";
+import Text from "../text";
 const FormLabel = {
   baseStyle: {
-    ...Text.variants.form,
+    ...Text.variants.primary,
     m: "0",
     pb: "8px",
-    color: "primary.1000",
+    color: "blue.900",
   },
 };
 

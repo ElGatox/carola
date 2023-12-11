@@ -1,6 +1,6 @@
 import Area from "./area";
 import Radio from "./radio";
-import Input from "./text";
-const Field = { Text: Input, TextArea: Area, Radio: Radio };
+import Text from "./input";
+const Field = { Text: Text, TextArea: Area, Radio: Radio };
 
 export default Field;

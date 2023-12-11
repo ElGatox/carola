@@ -1,8 +1,8 @@
-import FormError from "./form-error";
-import FormLabel from "./form-label";
-import Input from "./input";
-import Radio from "./radio";
-import Textarea from "./text-area.js";
+import FormError from "./form/form-error";
+import FormLabel from "./form/form-label";
+import Input from "./form/input";
+import Radio from "./form/radio";
+import Textarea from "./form/text-area";
 import Text from "./text";
 const components = {
   Text,

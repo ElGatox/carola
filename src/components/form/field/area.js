@@ -1,5 +1,5 @@
+"use client";
 import {
-  Input as CInput,
   FormControl,
   FormErrorMessage,
   FormLabel,
@@ -12,17 +12,15 @@ export default function Area({ name, label, placeholder, ...props }) {
   const errors = formState.errors[name]?.message;
 
   return (
-    <>
-      <FormControl isInvalid={errors} position="relative">
-        <FormLabel>{label}</FormLabel>
-        <Textarea
-          {...register(name)}
-          isInvalid={errors}
-          placeholder={placeholder}
-          {...props}
-        />
-        {errors && <FormErrorMessage bot="0">{errors}</FormErrorMessage>}
-      </FormControl>
-    </>
+    <FormControl isInvalid={errors} position="relative">
+      <FormLabel>{label}</FormLabel>
+      <Textarea
+        {...register(name)}
+        isInvalid={errors}
+        placeholder={placeholder}
+        {...props}
+      />
+      {errors && <FormErrorMessage bot="0">{errors}</FormErrorMessage>}
+    </FormControl>
   );
 }

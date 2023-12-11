@@ -1,8 +1,8 @@
-import Text from "./text";
+import Text from "../text";
 const FormError = {
   baseStyle: {
     text: {
-      ...Text.variants.form,
+      ...Text.variants.primary,
       pl: "5px",
       color: "red.500",
     },
