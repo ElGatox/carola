@@ -1,5 +1,5 @@
 "use client";
-import useLocalStorage from "@/lib/localstorage";
+import useLocalStorage from "@/hooks/localstorage";
 import {
   Button,
   Card,
@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { useEffect } from "react";
 export default function PrivacyPolicy({ ...props }) {
-  const { isOpen, onOpen, onClose, onToggle } = useDisclosure();
+  const { isOpen, onOpen } = useDisclosure();
   const [setStorageValue, storageValue] = useLocalStorage("policyAnswer");
   const handlePolicy = (value) => {
     setStorageValue(value);
@@ -22,8 +22,8 @@ export default function PrivacyPolicy({ ...props }) {
   }, [storageValue]);
   return (
     <PrivacyPolicyContent onClose={onOpen} isOpen={isOpen}>
-      <PrivacyPolicyHeader>JAJA XD</PrivacyPolicyHeader>
-      <PrivacyPolicyBody>JUASJUAS</PrivacyPolicyBody>
+      <PrivacyPolicyHeader>Header</PrivacyPolicyHeader>
+      <PrivacyPolicyBody>Body</PrivacyPolicyBody>
       <PrivacyPolicyFooter>
         <PolicyButton onClick={() => handlePolicy(true)}>ACEPTAR</PolicyButton>
         <PolicyButton onClick={() => handlePolicy(false)}>
