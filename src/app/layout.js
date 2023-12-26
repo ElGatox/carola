@@ -1,7 +1,7 @@
-import { Providers } from "@/lib/providers";
-import "./globals.css";
-import Fonts from "@/lib/fonts";
 import Loader from "@/components/loader/loading-page.js";
+import { Providers } from "@/lib/providers";
+import Fonts from "@/styles/fonts";
+import "./globals.css";
 
 export const metadata = {
   title: "Create Next App",
