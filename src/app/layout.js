@@ -12,10 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="">
-        <Fonts />
-        <Loader>
-          <Providers>{children}</Providers>
-        </Loader>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
