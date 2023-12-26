@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import PrivacyPolicy from "@/components/privacy-policy";
 
 export default function Home() {
   return (
@@ -17,14 +16,6 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             By{" "}
-            {/* <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            /> */}
           </a>
         </div>
       </div>

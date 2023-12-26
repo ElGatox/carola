@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 
-function useLoadingPage(promiseLoader) {
+export function useLoadingPage(promiseLoader) {
   const [show, setShow] = useState(true);
   const [percentOfCharge, changeFinalNumberToEndAnimation] = useNumberRange(
     0,
@@ -37,7 +37,7 @@ function useLoadingPage(promiseLoader) {
   return { show, percentOfCharge };
 }
 
-function useNumberRange(from, to) {
+export function useNumberRange(from, to) {
   const [currentNumber, setCurrentNumber] = useState(from);
   const toRef = useRef(to);
 

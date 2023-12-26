@@ -15,8 +15,6 @@ export function Providers({ children }) {
   );
 }
 
-import * as React from "react";
-
 export function LenisProvider({ children, options, ...props }) {
   return (
     <ReactLenis root {...props}>
