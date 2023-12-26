@@ -3,6 +3,7 @@ import Avenir from "./fonts";
 import components from "./components";
 
 export const theme = extendTheme({
+  components,
   fonts: {
     "default-normal": Avenir.black.style.fontFamily,
     "default-book": Avenir.book.style.fontFamily,

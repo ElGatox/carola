@@ -32,4 +32,4 @@ export default {
   heavy,
   light,
   medium,
-}
+};
