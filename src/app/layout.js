@@ -1,6 +1,7 @@
+import Loader from "@/components/loader/loading-page.js";
 import { Providers } from "@/lib/providers";
+import Fonts from "@/styles/fonts";
 import "./globals.css";
-// import Fonts from "@/lib/fonts";
 
 export const metadata = {
   title: "Create Next App",
@@ -11,8 +12,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="">
-        {/* <Fonts /> */}
-        <Providers>{children}</Providers>
+        <Fonts />
+        <Loader>
+          <Providers>{children}</Providers>
+        </Loader>
       </body>
     </html>
   );
