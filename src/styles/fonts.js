@@ -2,7 +2,7 @@ import localFont from "next/font/local";
 
 // Font files can be colocated inside of `app`
 const black = localFont({
-  src: "./fonts/Avenir-Black.woff2",
+  src: "./fonts/amaticsc-bold.woff",
   display: "swap",
 });
 // Font files can be colocated inside of `app`
