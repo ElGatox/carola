@@ -4,9 +4,10 @@ import { Box, Flex, VStack, Text } from "@chakra-ui/react";
 const Frase = () => {
   return (
     <Flex
+      alignItems="center"
       bg="#f3f2eb"
       pt={["2rem", null, null, "4rem"]}
-      justifyContent="space-evenly"
+      justifyContent={["space-evenly", null, null, "center"]}
       h="50vh"
       w="full"
     >
@@ -21,7 +22,7 @@ const Frase = () => {
           lindos cuando los compartimos con familiares y amigos. &quot;
         </Text>
         <Text textAlign="center" maxW="200px">
-          Carola
+          La Carola
         </Text>
       </VStack>
     </Flex>

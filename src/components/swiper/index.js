@@ -1,5 +1,5 @@
 "";
-import { Box, Flex, Image } from "@chakra-ui/react";
+import { Box, Image } from "@chakra-ui/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -13,8 +13,8 @@ const PhotoSwiper = () => {
         speed={5000}
         modules={[Autoplay]}
         slidesPerView={1}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log("slide change")}
+        // onSwiper={(swiper) => console.log(swiper)}
         loop="true"
         autoplay={{
           delay: 1,

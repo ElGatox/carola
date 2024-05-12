@@ -12,7 +12,7 @@ const HeroTitle = () => {
       zIndex="100"
       w="100%"
     >
-      <Flex alignItems="center" justifyContent="center" w="full">
+      <Flex maxW="600px" alignItems="center" justifyContent="center" w="full">
         <Image w="40%" src="/images/corona.svg" alt="corona" />
       </Flex>
       <Text
