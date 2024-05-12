@@ -10,6 +10,7 @@ export const theme = extendTheme({
     "default-heavy": Avenir.heavy.style.fontFamily,
     "default-light": Avenir.light.style.fontFamily,
     "default-medium": Avenir.medium.style.fontFamily,
+    "default-aguafina": Avenir.aguafina.style.fontFamily,
   },
   components,
 });

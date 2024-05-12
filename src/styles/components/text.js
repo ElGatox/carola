@@ -7,7 +7,7 @@ const Text = {
     },
 
     title: {
-      fontFamily: "var(--chakra-fonts-default-normal), serif",
+      fontFamily: "var(--chakra-fonts-default-aguafina), serif",
       fontSize: "3rem",
       lineHeight: "1.7em",
     },

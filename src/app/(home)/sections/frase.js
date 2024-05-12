@@ -7,7 +7,7 @@ const Frase = () => {
       bg="#f3f2eb"
       pt={["2rem", null, null, "4rem"]}
       justifyContent="space-evenly"
-      h="40vh"
+      h="50vh"
       w="full"
     >
       <VStack>

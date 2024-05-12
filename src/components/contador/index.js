@@ -30,10 +30,10 @@ const Countdown = ({ targetDate }) => {
   }, []);
 
   return (
-    <Flex width="full" h="19vh">
+    <Flex width="full" h="18vh">
       <Flex
         px={["5px", null, null, "0"]}
-        bg="#8c94ce"
+        bg="#b89819"
         alignItems="center"
         justifyContent="center"
         width="full"
@@ -51,6 +51,7 @@ const Countdown = ({ targetDate }) => {
         >
           {" "}
           <Text
+            fontWeight="bold"
             textColor="white"
             fontSize={["10px", null, null, "12px"]}
             textAlign="center"
@@ -77,6 +78,7 @@ const Countdown = ({ targetDate }) => {
         >
           {" "}
           <Text
+            fontWeight="bold"
             textColor="white"
             fontSize={["10px", null, null, "12px"]}
             textAlign="center"
@@ -103,6 +105,7 @@ const Countdown = ({ targetDate }) => {
         >
           {" "}
           <Text
+            fontWeight="bold"
             textColor="white"
             fontSize={["10px", null, null, "12px"]}
             textAlign="center"
@@ -128,6 +131,7 @@ const Countdown = ({ targetDate }) => {
         >
           {" "}
           <Text
+            fontWeight="bold"
             textColor="white"
             fontSize={["10px", null, null, "12px"]}
             textAlign="center"
