@@ -25,30 +25,30 @@ const PhotoSwiper = () => {
         }}
       >
         <SwiperSlide>
-          <Image maxH="100vh" src="/images/foto1.webp" alt="slide 1" />
+          <Image maxH="100vh" src="/images/foto1byn.jpg" alt="slide 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image maxH="100vh" src="/images/foto2.webp" alt="slide 2" />
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <Image maxH="100vh" src="/images/foto3.webp" alt="slide 3" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image maxH="100vh" src="/images/foto4.webp" alt="slide 4" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image maxH="100vh" src="/images/foto1.webp" alt="slide 1" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image maxH="100vh" src="/images/foto2.webp" alt="slide 2" />
+          <Image maxH="100vh" src="/images/foto2byn.jpg" alt="slide 2" />
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <Image maxH="100vh" src="/images/foto3.webp" alt="slide 3" />
+          <Image maxH="100vh" src="/images/foto3byn.jpg" alt="slide 3" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image maxH="100vh" src="/images/foto4.webp" alt="slide 4" />
+          <Image maxH="100vh" src="/images/foto4byn.jpg" alt="slide 4" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image maxH="100vh" src="/images/foto1byn.jpg" alt="slide 1" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image maxH="100vh" src="/images/foto2byn.jpg" alt="slide 2" />
+        </SwiperSlide>
+        <SwiperSlide>
+          {" "}
+          <Image maxH="100vh" src="/images/foto3byn.jpg" alt="slide 3" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image maxH="100vh" src="/images/foto4byn.jpg" alt="slide 4" />
         </SwiperSlide>
       </Swiper>
     </Box>

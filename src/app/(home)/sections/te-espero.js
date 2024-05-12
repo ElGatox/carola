@@ -5,8 +5,7 @@ import Link from "next/link";
 const TeEspero = () => {
   return (
     <Flex
-      justi
-      bg="#8c94ce"
+      bg="#b89819"
       pt={["0", null, null, "4rem"]}
       alignItems="center"
       justifyContent={["center", null, null, "space-evenly"]}
@@ -21,7 +20,7 @@ const TeEspero = () => {
           fontSize="4.5em !important"
           variant="title"
         >
-          TE ESPERO
+          Te Espero
         </Text>
         <Text
           maxW={["350px", null, null, "full"]}

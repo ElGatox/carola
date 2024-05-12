@@ -25,8 +25,13 @@ const medium = localFont({
   src: "./fonts/Avenir-Medium.woff2",
   display: "swap",
 });
+const aguafina = localFont({
+  src: "./fonts/AguafinaScript-Regular.woff2",
+  display: "swap",
+});
 
 export default {
+  aguafina,
   black,
   book,
   heavy,

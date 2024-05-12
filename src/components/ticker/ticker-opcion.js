@@ -1,0 +1,25 @@
+import React from "react";
+import Ticker from "framer-motion-ticker";
+import { Flex, Text, Box } from "@chakra-ui/react";
+
+function TickerOpcion() {
+  const words = [
+    "Proximamente",
+    "Proximamente",
+    "Proximamente",
+    "Proximamente",
+    "Proximamente",
+  ];
+  return (
+    <Box className="App">
+      <Ticker duration={40}>
+        {words.map((item, index) => (
+          <Flex w="full" gap="50px" key={index}>
+            <Text pl="20px"> {item} </Text>
+          </Flex>
+        ))}
+      </Ticker>
+    </Box>
+  );
+}
+export default TickerOpcion;
