@@ -30,7 +30,7 @@ const Countdown = ({ targetDate }) => {
   }, []);
 
   return (
-    <Flex width="full" h="18vh">
+    <Flex width="full">
       <Flex
         px={["5px", null, null, "0"]}
         bg="#b89819"

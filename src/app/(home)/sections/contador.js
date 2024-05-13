@@ -1,6 +1,6 @@
 "";
 
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, Flex } from "@chakra-ui/react";
 import dynamic from "next/dynamic";
 import TickerDivider from "@/components/ticker/ticker-divider";
 import TickerOpcion from "@/components/ticker/ticker-opcion";
@@ -12,16 +12,18 @@ const Countdown = dynamic(() => import("@/components/contador"), {
 const Contador = () => {
   const targetDate = new Date("2024-11-28T00:00:00");
   return (
-    <Box>
+    <Flex flexDirection="column" w="full">
       {/* <TickerDivider body="Proximamente" direction="left" /> */}
       <Box borderTop="1px solid #b89819">
         <TickerOpcion />
       </Box>
-      <Countdown targetDate={targetDate} />
+      <Box w="full">
+        <Countdown targetDate={targetDate} />
+      </Box>
       <Box borderBottom="1px solid #b89819">
         <TickerOpcion />
       </Box>
-    </Box>
+    </Flex>
   );
 };
 
