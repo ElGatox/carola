@@ -11,7 +11,7 @@ function TickerOpcion() {
     "Proximamente",
   ];
   return (
-    <Box className="App">
+    <Box>
       <Ticker duration={40}>
         {words.map((item, index) => (
           <Flex w="full" gap="50px" key={index}>
