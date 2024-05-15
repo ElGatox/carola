@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Flex, Text } from "@chakra-ui/react";
+import InViewAnimation from "../animations/in-view";
 
 const Countdown = ({ targetDate }) => {
   const calculateTimeLeft = () => {
@@ -30,122 +31,159 @@ const Countdown = ({ targetDate }) => {
   }, []);
 
   return (
-    <Flex width="full">
+    <Flex flexDirection={["column", null, null, "row"]} width="full">
       <Flex
-        px={["5px", null, null, "0"]}
-        bg="#b89819"
+        h={["100vh", null, null, "50vh"]}
+        flexDirection={["column", null, null, "row"]}
+        bg="#FF5580"
         alignItems="center"
         justifyContent="center"
         width="full"
-        h="150px"
-        gap={["2px", null, null, "10px"]}
+        gap={["2rem", null, null, "10px"]}
       >
-        <Flex
-          flexDir="column"
-          justifyContent="center"
-          w="100px"
-          h="100px"
-          border="1px solid "
-          borderColor="white"
-          borderRadius="90%"
+        <InViewAnimation
+          effect="fadeInLeft"
+          transition={{
+            duration: 0.6,
+            ease: "easeInOut",
+          }}
         >
-          {" "}
-          <Text
-            fontWeight="bold"
-            textColor="white"
-            fontSize={["10px", null, null, "12px"]}
-            textAlign="center"
+          <Flex
+            flexDir="column"
+            justifyContent="center"
+            w={["150px", null, null, "150px"]}
+            h={["150px", null, null, "150px"]}
+            border="2px solid "
+            borderColor="#FFAA80"
+            borderRadius="90%"
           >
             {" "}
-            DIAS
-          </Text>
-          <Text
-            textColor="white"
-            fontSize={["17px", null, null, "20px"]}
-            textAlign="center"
-          >
-            {timeLeft.days}
-          </Text>
-        </Flex>
-        <Flex
-          flexDir="column"
-          justifyContent="center"
-          w="100px"
-          h="100px"
-          border="1px solid "
-          borderColor="white"
-          borderRadius="90%"
+            <Text
+              fontWeight="bold"
+              textColor="white"
+              fontSize={["12px", null, null, "12px"]}
+              textAlign="center"
+            >
+              {" "}
+              DIAS
+            </Text>
+            <Text
+              textColor="white"
+              fontSize={["40px", null, null, "30px"]}
+              textAlign="center"
+            >
+              {timeLeft.days}
+            </Text>
+          </Flex>
+        </InViewAnimation>
+
+        <InViewAnimation
+          effect="fadeInLeft"
+          transition={{
+            duration: 0.6,
+            ease: "easeInOut",
+            delay: 0.2,
+          }}
         >
-          {" "}
-          <Text
-            fontWeight="bold"
-            textColor="white"
-            fontSize={["10px", null, null, "12px"]}
-            textAlign="center"
-          >
-            HORAS
-          </Text>
-          <Text
-            textColor="white"
-            fontSize={["17px", null, null, "20px"]}
-            textAlign="center"
+          <Flex
+            flexDir="column"
+            justifyContent="center"
+            w={["150px", null, null, "150px"]}
+            h={["150px", null, null, "150px"]}
+            border="2px solid "
+            borderColor="#FFAA80"
+            borderRadius="90%"
           >
             {" "}
-            {timeLeft.hours}
-          </Text>
-        </Flex>
-        <Flex
-          flexDir="column"
-          justifyContent="center"
-          w="100px"
-          h="100px"
-          border="1px solid "
-          borderColor="white"
-          borderRadius="50%"
+            <Text
+              fontWeight="bold"
+              textColor="white"
+              fontSize={["12px", null, null, "12px"]}
+              textAlign="center"
+            >
+              HORAS
+            </Text>
+            <Text
+              textColor="white"
+              fontSize={["40px", null, null, "30px"]}
+              textAlign="center"
+            >
+              {" "}
+              {timeLeft.hours}
+            </Text>
+          </Flex>
+        </InViewAnimation>
+
+        <InViewAnimation
+          effect="fadeInRight"
+          transition={{
+            duration: 0.6,
+            ease: "easeInOut",
+            delay: 0.2,
+          }}
         >
-          {" "}
-          <Text
-            fontWeight="bold"
-            textColor="white"
-            fontSize={["10px", null, null, "12px"]}
-            textAlign="center"
+          <Flex
+            flexDir="column"
+            justifyContent="center"
+            w={["150px", null, null, "150px"]}
+            h={["150px", null, null, "150px"]}
+            border="2px solid "
+            borderColor="#FFAA80"
+            borderRadius="50%"
           >
-            MINUTOS
-          </Text>
-          <Text
-            textColor="white"
-            fontSize={["17px", null, null, "20px"]}
-            textAlign="center"
-          >
-            {timeLeft.minutes}
-          </Text>
-        </Flex>
-        <Flex
-          flexDir="column"
-          justifyContent="center"
-          w="100px"
-          h="100px"
-          border="1px solid "
-          borderColor="white"
-          borderRadius="50%"
+            {" "}
+            <Text
+              fontWeight="bold"
+              textColor="white"
+              fontSize={["12px", null, null, "12px"]}
+              textAlign="center"
+            >
+              MINUTOS
+            </Text>
+            <Text
+              textColor="white"
+              fontSize={["40px", null, null, "30px"]}
+              textAlign="center"
+            >
+              {timeLeft.minutes}
+            </Text>
+          </Flex>
+        </InViewAnimation>
+
+        <InViewAnimation
+          effect="fadeInRight"
+          transition={{
+            duration: 0.6,
+            ease: "easeInOut",
+          }}
         >
-          {" "}
-          <Text
-            fontWeight="bold"
-            textColor="white"
-            fontSize={["10px", null, null, "12px"]}
-            textAlign="center"
+          <Flex
+            flexDir="column"
+            justifyContent="center"
+            w={["150px", null, null, "150px"]}
+            h={["150px", null, null, "150px"]}
+            border="2px solid "
+            borderColor="#FFAA80"
+            borderRadius="50%"
           >
-            SEGUNDOS
-          </Text>
-          <Text
-            textColor="white"
-            fontSize={["17px", null, null, "20px"]}
-            textAlign="center"
-          >
-            {timeLeft.seconds}
-          </Text>
-        </Flex>
+            {" "}
+            <Text
+              fontWeight="bold"
+              textColor="white"
+              fontSize={["12px", null, null, "12px"]}
+              textAlign="center"
+            >
+              SEGUNDOS
+            </Text>
+            <Text
+              textColor="white"
+              fontSize={["40px", null, null, "30px"]}
+              textAlign="center"
+            >
+              {timeLeft.seconds}
+            </Text>
+          </Flex>
+        </InViewAnimation>
       </Flex>
     </Flex>
   );
