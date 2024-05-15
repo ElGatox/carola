@@ -1,42 +1,73 @@
 "";
-import { Box, Flex, VStack, Text, Button } from "@chakra-ui/react";
-import Link from "next/link";
+import InViewAnimation from "@/components/animations/in-view";
+import { Box, Flex, VStack, Text, Button, Link } from "@chakra-ui/react";
 
 const TeEspero = () => {
   return (
     <Flex
-      bg="#b89819"
-      pt={["0", null, null, "4rem"]}
+      bg="#FF5580"
       alignItems="center"
       justifyContent={["center", null, null, "space-evenly"]}
-      h={["60vh", null, null, "40vh"]}
+      h={["60vh", null, null, "50vh"]}
       w="full"
     >
       <VStack>
-        <Text
-          color="white"
-          textAlign="center"
-          maxW="550px"
-          fontSize="4.5em !important"
-          variant="title"
+        <InViewAnimation
+          effect="opacity"
+          transition={{
+            duration: 0.6,
+            ease: "easeInOut",
+          }}
         >
-          Te Espero
-        </Text>
-        <Text
-          maxW={["350px", null, null, "full"]}
-          color="white"
-          fontSize={["1.1rem", null, null, "1.5rem"]}
-          textAlign="center"
+          <Text
+            color="white"
+            textAlign="center"
+            maxW="550px"
+            fontSize="4.5em !important"
+            variant="title"
+          >
+            Te Espero
+          </Text>
+        </InViewAnimation>
+
+        <InViewAnimation
+          effect="opacity"
+          transition={{
+            duration: 0.6,
+            ease: "easeInOut",
+            delay: 0.2,
+          }}
         >
-          Para que formes parte de esta gran celebración. ¡Confirma tu
-          asistencia!
-        </Text>
+          <Text
+            maxW={["350px", null, null, "full"]}
+            color="white"
+            fontSize={["1.1rem", null, null, "1.5rem"]}
+            textAlign="center"
+          >
+            Para que formes parte de esta gran celebración. ¡Confirma tu
+            asistencia!
+          </Text>
+        </InViewAnimation>
+
         <Box pt="2rem">
           <Link
             target="_blank"
             href="https://docs.google.com/forms/d/e/1FAIpQLSc-RpxNjUpbyZbBaOATfuNoAi-pUni-GY0Zj7tFPOsG2C5SeA/viewform?usp=sf_link"
           >
-            <Button> CONFIRMAR ASISTENCIA </Button>
+            <InViewAnimation
+              effect="opacity"
+              transition={{
+                duration: 0.6,
+                ease: "easeInOut",
+                delay: 0.3,
+              }}
+            >
+              <Button w="150px" color="white" bg="#FFAA80">
+                <Text fontWeight="bold" textColor="#FF0080" variant="button">
+                  CONFIRMAR ASISTENCIA
+                </Text>
+              </Button>
+            </InViewAnimation>
           </Link>
         </Box>
       </VStack>

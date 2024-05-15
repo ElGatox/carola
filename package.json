@@ -24,6 +24,7 @@
     "add": "^2.0.6",
     "framer-motion": "^10.16.4",
     "framer-motion-ticker": "^1.0.19",
+    "gsap": "^3.12.5",
     "i18next": "^23.7.11",
     "negotiator": "^0.6.3",
     "next": "14.0.0",

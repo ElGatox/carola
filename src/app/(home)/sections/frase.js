@@ -1,4 +1,5 @@
 "";
+import InViewAnimation from "@/components/animations/in-view";
 import { Box, Flex, VStack, Text } from "@chakra-ui/react";
 
 const Frase = () => {
@@ -12,18 +13,41 @@ const Frase = () => {
       w="full"
     >
       <VStack>
-        <Text
-          textAlign="center"
-          maxW={["350px", null, null, "550px"]}
-          fontSize="2.5em !important"
-          variant="title"
+        <InViewAnimation
+          effect="fadeInDown"
+          transition={{
+            duration: 0.6,
+            ease: "easeInOut",
+          }}
         >
-          &quot;Los momentos más felices y divertidos de la vida se tornan más
-          lindos cuando los compartimos con familiares y amigos. &quot;
-        </Text>
-        <Text textAlign="center" maxW="200px">
-          La Carola
-        </Text>
+          <Text
+            textAlign="center"
+            maxW={["350px", null, null, "550px"]}
+            fontSize="2.5em !important"
+            variant="title"
+          >
+            &quot;Los momentos más felices y divertidos de la vida se tornan más
+            lindos cuando los compartimos con familiares y amigos. &quot;
+          </Text>
+        </InViewAnimation>
+
+        <InViewAnimation
+          effect="fadeInDown"
+          transition={{
+            duration: 0.6,
+            ease: "easeInOut",
+            delay: 0.1,
+          }}
+        >
+          <Text
+            variant="title"
+            fontSize="30px !important"
+            textAlign="center"
+            maxW="200px"
+          >
+            Caru
+          </Text>
+        </InViewAnimation>
       </VStack>
     </Flex>
   );
