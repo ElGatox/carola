@@ -6,13 +6,13 @@ import "swiper/css/navigation";
 import "./styles.css";
 import { Autoplay } from "swiper/modules";
 
-const PhotoSwiper = () => {
+const PhotoSwiperMobile = () => {
   return (
-    <Box>
+    <Box maxH="100vh" h="100vh">
       <Swiper
         speed={5000}
         modules={[Autoplay]}
-        slidesPerView="auto"
+        slidesPerView={1}
         // onSlideChange={() => console.log("slide change")}
         // onSwiper={(swiper) => console.log(swiper)}
         loop="true"
@@ -55,4 +55,4 @@ const PhotoSwiper = () => {
   );
 };
 
-export default PhotoSwiper;
+export default PhotoSwiperMobile;
