@@ -1,6 +1,7 @@
 "use client";
 import HeroTitle from "@/components/hero-title";
 import PhotoSwiper from "@/components/swiper";
+import PhotoSwiperMobile from "@/components/swipermobile";
 import { Box, Flex } from "@chakra-ui/react";
 
 export default function Home({ params }) {
@@ -10,7 +11,12 @@ export default function Home({ params }) {
         <HeroTitle />
       </Flex>
 
-      <PhotoSwiper />
+      <Box display={["block", null, null, "none"]}>
+        <PhotoSwiperMobile />
+      </Box>
+      <Box display={["none", null, null, "block"]}>
+        <PhotoSwiper />
+      </Box>
     </Box>
   );
 }
