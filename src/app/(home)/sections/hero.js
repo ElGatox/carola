@@ -11,7 +11,7 @@ export default function Home({ params }) {
         <HeroTitle />
       </Flex>
 
-      <Box display={["block", null, null, "none"]}>
+      <Box display={["initial", null, null, "none"]}>
         <PhotoSwiperMobile />
       </Box>
       <Box display={["none", null, null, "block"]}>
