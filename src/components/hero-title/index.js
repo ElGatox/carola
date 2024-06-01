@@ -37,7 +37,7 @@ const HeroTitle = () => {
           fontSize="20px !important"
           pl="0.75rem"
           variant="body"
-          textColor="#FF5580"
+          textColor="#ffc600"
           fontWeight="bold"
         >
           Mis 15
@@ -52,7 +52,7 @@ const HeroTitle = () => {
           delay: 0.3,
         }}
       >
-        <Text variant="title" textColor="#FF0080" fontSize="100px">
+        <Text variant="title" textColor="#ffc600" fontSize="100px">
           Carola
         </Text>
       </InViewAnimation>
@@ -67,7 +67,7 @@ const HeroTitle = () => {
               delay: 0.4,
             }}
           >
-            <Text textAlign="center" variant="body" textColor="#FF5580">
+            <Text textAlign="center" variant="body" textColor="#ffc600">
               Nov
             </Text>
           </InViewAnimation>
@@ -89,7 +89,7 @@ const HeroTitle = () => {
               textAlign="center"
               variant="body"
               fontSize="50px !important"
-              textColor="#FF5580"
+              textColor="#ffc600"
             >
               28
             </Text>
@@ -104,7 +104,7 @@ const HeroTitle = () => {
               delay: 0.4,
             }}
           >
-            <Text textAlign="center" variant="body" textColor="#FF5580">
+            <Text textAlign="center" variant="body" textColor="#ffc600">
               2024
             </Text>
           </InViewAnimation>
@@ -119,7 +119,7 @@ const HeroTitle = () => {
         }}
       >
         <Box pt="7rem">
-          <Button w="150px" color="white" bg="#FF5580">
+          <Button w="150px" color="white" bg="#ffc600">
             <Text variant="button">VER INFORMACION</Text>
           </Button>
         </Box>

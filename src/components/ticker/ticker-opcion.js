@@ -14,7 +14,7 @@ function TickerOpcion() {
     <Box>
       <Ticker duration={40}>
         {words.map((item, index) => (
-          <Flex bg="#FFAA80" w="full" gap="50px" key={index}>
+          <Flex bg="#e5e619" w="full" gap="50px" key={index}>
             <Text pl="20px"> {item} </Text>
           </Flex>
         ))}
