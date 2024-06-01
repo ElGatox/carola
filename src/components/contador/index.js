@@ -35,7 +35,7 @@ const Countdown = ({ targetDate }) => {
       <Flex
         h={["100vh", null, null, "50vh"]}
         flexDirection={["column", null, null, "row"]}
-        bg="#FF5580"
+        bg="#ffc600"
         alignItems="center"
         justifyContent="center"
         width="full"
@@ -54,7 +54,7 @@ const Countdown = ({ targetDate }) => {
             w={["150px", null, null, "150px"]}
             h={["150px", null, null, "150px"]}
             border="2px solid "
-            borderColor="#FFAA80"
+            borderColor="#ffff00"
             borderRadius="90%"
           >
             {" "}
@@ -91,7 +91,7 @@ const Countdown = ({ targetDate }) => {
             w={["150px", null, null, "150px"]}
             h={["150px", null, null, "150px"]}
             border="2px solid "
-            borderColor="#FFAA80"
+            borderColor="#ffff00"
             borderRadius="90%"
           >
             {" "}
@@ -128,7 +128,7 @@ const Countdown = ({ targetDate }) => {
             w={["150px", null, null, "150px"]}
             h={["150px", null, null, "150px"]}
             border="2px solid "
-            borderColor="#FFAA80"
+            borderColor="#ffff00"
             borderRadius="50%"
           >
             {" "}
@@ -163,7 +163,7 @@ const Countdown = ({ targetDate }) => {
             w={["150px", null, null, "150px"]}
             h={["150px", null, null, "150px"]}
             border="2px solid "
-            borderColor="#FFAA80"
+            borderColor="#ffff00"
             borderRadius="50%"
           >
             {" "}

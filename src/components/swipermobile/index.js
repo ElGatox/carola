@@ -31,30 +31,30 @@ const PhotoSwiperMobile = () => {
           }}
         >
           <SwiperSlide>
-            <Image src="/images/carolabyn1.jpg" alt="slide 1" />
+            <Image src="/images/cari1byb.jpg" alt="slide 1" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/carolabyn2.jpg" alt="slide 2" />
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-            <Image src="/images/carolabyn3.jpg" alt="slide 3" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src="/images/carolabyn4.jpg" alt="slide 4" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src="/images/carolabyn5.jpg" alt="slide 5" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src="/images/carolabyn2.jpg" alt="slide 6" />
+            <Image src="/images/cari2byb.jpg" alt="slide 2" />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <Image src="/images/carolabyn3.jpg" alt="slide 7" />
+            <Image src="/images/cari3byb.jpg" alt="slide 3" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src="/images/carolabyn1.jpg" alt="slide 8" />
+            <Image src="/images/cari4byb.jpg" alt="slide 4" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src="/images/cari5byb.jpg" alt="slide 5" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src="/images/cari6byb.jpg" alt="slide 6" />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image src="/images/cari3byb.jpg" alt="slide 7" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src="/images/cari5byb.jpg" alt="slide 8" />
           </SwiperSlide>
         </Swiper>
       </Box>
