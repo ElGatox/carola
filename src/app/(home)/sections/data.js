@@ -21,7 +21,7 @@ const EventData = () => {
           justifyContent="center"
           alignItems="center"
           border="1px solid"
-          borderColor="#ffc600"
+          borderColor="#f3c2ea"
           w="150px"
           h="150px"
           borderRadius="100%"
@@ -51,7 +51,7 @@ const EventData = () => {
             delay: 0.1,
           }}
         >
-          <Text textColor="#ffc600" fontSize="2.5em !important" variant="title">
+          <Text textColor="#f3c2ea" fontSize="2.5em !important" variant="title">
             Mis 15
           </Text>
         </InViewAnimation>
@@ -84,7 +84,7 @@ const EventData = () => {
             justifyContent="center"
             alignItems="center"
             border="1px solid"
-            borderColor="#ffc600"
+            borderColor="#f3c2ea"
             w="150px"
             h="150px"
             borderRadius="100%"
@@ -102,7 +102,7 @@ const EventData = () => {
             delay: 0.1,
           }}
         >
-          <Text textColor="#ffc600" fontSize="2.5em !important" variant="title">
+          <Text textColor="#f3c2ea" fontSize="2.5em !important" variant="title">
             Horario
           </Text>
         </InViewAnimation>
@@ -135,7 +135,7 @@ const EventData = () => {
             justifyContent="center"
             alignItems="center"
             border="1px solid"
-            borderColor="#ffc600"
+            borderColor="#f3c2ea"
             w="150px"
             h="150px"
             borderRadius="100%"
@@ -153,7 +153,7 @@ const EventData = () => {
             delay: 0.1,
           }}
         >
-          <Text textColor="#ffc600" fontSize="2.5em !important" variant="title">
+          <Text textColor="#f3c2ea" fontSize="2.5em !important" variant="title">
             Dress Code
           </Text>
         </InViewAnimation>
