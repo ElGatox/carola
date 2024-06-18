@@ -21,6 +21,7 @@ const Frase = () => {
           }}
         >
           <Text
+            textColor="#84b6f4"
             textAlign="center"
             maxW={["350px", null, null, "550px"]}
             fontSize="2.5em !important"
@@ -44,6 +45,7 @@ const Frase = () => {
             fontSize="30px !important"
             textAlign="center"
             maxW="200px"
+            textColor="#84b6f4"
           >
             Caru
           </Text>

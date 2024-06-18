@@ -22,7 +22,7 @@ const Contador = () => {
           ease: "easeInOut",
         }}
       >
-        <Box borderTop="1px solid #ffff00">
+        <Box borderTop="1px solid #c4dafa">
           <TickerOpcion />
         </Box>
       </InViewAnimation>
@@ -46,7 +46,7 @@ const Contador = () => {
           ease: "easeInOut",
         }}
       >
-        <Box borderBottom="1px solid #ffff00">
+        <Box borderBottom="1px solid #c4dafa">
           <TickerOpcion />
         </Box>
       </InViewAnimation>

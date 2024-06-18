@@ -5,7 +5,7 @@ import { Box, Flex, VStack, Text, Button, Link } from "@chakra-ui/react";
 const TeEspero = () => {
   return (
     <Flex
-      bg="#ffc600"
+      bg="#f3c2ea"
       alignItems="center"
       justifyContent={["center", null, null, "space-evenly"]}
       h={["60vh", null, null, "50vh"]}
@@ -62,8 +62,8 @@ const TeEspero = () => {
                 delay: 0.3,
               }}
             >
-              <Button w="150px" color="white" bg="white">
-                <Text fontWeight="bold" textColor="#ffc600" variant="button">
+              <Button w="150px" color="white" bg="#84b6f4">
+                <Text fontWeight="bold" textColor="#white" variant="button">
                   CONFIRMAR ASISTENCIA
                 </Text>
               </Button>
