@@ -1,6 +1,6 @@
 import Loader from "@/components/loader/loading-page.js";
 import { Providers } from "@/lib/providers";
-import Fonts from "@/styles/fonts";
+import ogImage from "../../public/images/caru.jpg";
 import "./globals.css";
 
 export const metadata = {
@@ -10,11 +10,17 @@ export const metadata = {
   keywords: "Invitacion",
   robots: "index,follow",
   openGraph: {
-    title: "Caru Toledo - Mis 15 Años",
+    title: "Caru Vlach - Mis 15 Años",
     description: "Invitacion",
     url: "https://CarolaQuince.com",
     type: "website",
-    image: "https://utfs.io/f/1f738f9e-8b7b-4aef-ad5f-4b86edd8257a-a92hiv.jpg",
+    images: [
+      {
+        url: ogImage.src,
+        width: ogImage.width,
+        height: ogImage.height,
+      },
+    ],
     site_name: "Caru Toledo",
   },
 };
