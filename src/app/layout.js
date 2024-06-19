@@ -4,15 +4,15 @@ import ogImage from "../../public/images/caru.jpg";
 import "./globals.css";
 
 export const metadata = {
-  metadataBase: new URL("https://CarolaQuince.com"),
+  metadataBase: new URL("https://carola-quince.vercel.app/"),
   title: "Invitacion a mi Cumple",
   description: "Invitacion",
   keywords: "Invitacion",
   robots: "index,follow",
   openGraph: {
     title: "Caru Vlach - Mis 15 Años",
-    description: "Invitacion",
-    url: "https://CarolaQuince.com",
+    description: "Invitacion Menores",
+    url: "https://carola-quince.vercel.app/",
     type: "website",
     images: [
       {
