@@ -5,6 +5,7 @@ import EventData from "./sections/data";
 import Frase from "./sections/frase";
 import Contador from "./sections/contador";
 import TeEspero from "./sections/te-espero";
+import Footer from "./sections/footer";
 
 const Invitacion = () => {
   return (
@@ -14,6 +15,7 @@ const Invitacion = () => {
       <EventData />
       <Frase />
       <TeEspero />
+      <Footer />
     </Box>
   );
 };

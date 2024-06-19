@@ -7,7 +7,7 @@ const TeEspero = () => {
     <Flex
       bg="#f3c2ea"
       alignItems="center"
-      justifyContent={["center", null, null, "space-evenly"]}
+      justifyContent={["center", null, null, "center"]}
       h={["60vh", null, null, "50vh"]}
       w="full"
     >
@@ -49,7 +49,13 @@ const TeEspero = () => {
           </Text>
         </InViewAnimation>
 
-        <Box pt="2rem">
+        <Flex
+          justifyContent="center"
+          flexDirection="column"
+          w="full"
+          alignItems="center"
+          pt="2rem"
+        >
           <Link
             target="_blank"
             href="https://docs.google.com/forms/d/e/1FAIpQLSc-RpxNjUpbyZbBaOATfuNoAi-pUni-GY0Zj7tFPOsG2C5SeA/viewform?usp=sf_link"
@@ -69,7 +75,18 @@ const TeEspero = () => {
               </Button>
             </InViewAnimation>
           </Link>
-        </Box>
+          <Flex
+            justifyContent="center"
+            alignItems="center"
+            w="full"
+            pt="1.5rem"
+          >
+            <Text textColor="white" textAlign="center" maxW="50%">
+              *Debes tener una cuenta Google para poder completar el formulario,
+              caso contrario hacerlo mediante Whatsapp a Carola*
+            </Text>
+          </Flex>
+        </Flex>
       </VStack>
     </Flex>
   );
