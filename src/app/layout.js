@@ -11,7 +11,7 @@ export const metadata = {
   robots: "index,follow",
   openGraph: {
     title: "Caru Vlach - Mis 15 Años",
-    description: "Invitacion Menores",
+    description: "Invitacion General",
     url: "https://carola-quince.vercel.app/",
     type: "website",
     images: [
