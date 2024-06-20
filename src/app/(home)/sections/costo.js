@@ -72,7 +72,7 @@ const Costo = () => {
                 textAlign="center"
                 maxW={["260px", null, null, "full"]}
               >
-                (Hasta el 20 de agosto, posteriormente costara $25.000)
+                (Hasta el 30 de agosto, posteriormente costara $25.000)
               </Text>
             </Flex>
           </Box>
