@@ -61,15 +61,18 @@ const Costo = () => {
               bg="#84b6f4"
               alignItems="center"
               justifyContent="center"
-              pt="2rem"
+              pt={["1rem", null, null, "0"]}
               flexDirection="column"
             >
-              <Text
-                fontSize={["2rem", null, null, "4rem"]}
-                pb="2rem"
-                textColor="white"
-              >
+              <Text fontSize={["2rem", null, null, "4rem"]} textColor="white">
                 Mayores: $18.000
+              </Text>
+              <Text
+                textColor="white"
+                textAlign="center"
+                maxW={["260px", null, null, "full"]}
+              >
+                (Hasta el 20 de agosto, posteriormente costara $25.000)
               </Text>
             </Flex>
           </Box>
