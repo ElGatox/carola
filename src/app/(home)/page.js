@@ -6,6 +6,7 @@ import Frase from "./sections/frase";
 import Contador from "./sections/contador";
 import TeEspero from "./sections/te-espero";
 import Footer from "./sections/footer";
+import Costo from "./sections/costo";
 
 const Invitacion = () => {
   return (
@@ -13,6 +14,7 @@ const Invitacion = () => {
       <Home />
       <Contador />
       <EventData />
+      <Costo />
       <Frase />
       <TeEspero />
       <Footer />
