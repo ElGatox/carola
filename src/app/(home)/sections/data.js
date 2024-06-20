@@ -1,5 +1,4 @@
 "";
-
 import InViewAnimation from "@/components/animations/in-view";
 import { Box, Flex, VStack, Text, Image } from "@chakra-ui/react";
 import Link from "next/link";
